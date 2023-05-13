@@ -54,14 +54,32 @@ h1 {
 }
 
 .medias {
-  border: 1px solid rgb(0, 0, 0);
+  
   display: inline-block;
   margin: auto;
   position: relative;
   width: clamp(10px, 8%, 80px);
-  padding: 5px;
   border-radius: 100%;
   
+}
+
+.linkmedia {
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+  width: clamp(32px, 10%, 80px);
+  box-shadow: inset 0px -3px 20px 2px rgba(255, 255, 255, 0.384);
+  background-color: #07497267;
+}
+
+.linkmedia:hover {
+  box-shadow: inset 0px 0px 3px 3px rgba(255, 255, 255, 0.384);
+  
+}
+
+.linkmedia:active {
+  
+  background-color: rgba(0, 0, 0, 0.048);
 }
 
 header > h2 {
